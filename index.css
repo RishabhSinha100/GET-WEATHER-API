@@ -1,0 +1,75 @@
+body{
+  background-image: url('background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1{
+  color: #43af47;
+}
+.container {
+  text-align: center;
+  margin: 93px 384px -80px 390px;
+  color: white;
+  border: 1px solid #ccc;
+  padding: 20px; 
+  padding-bottom: 60px;
+  border-radius: 8px;
+  background-color: rgba(240, 240, 240, 0.368); 
+  backdrop-filter: blur(7px); 
+}
+
+.container h1{
+  margin: 5px 0 50px 0;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+  .location {
+    margin-bottom: 96px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #43af47;
+    color:black;
+    border: none;
+    cursor: pointer;
+     border-color: black;
+     border-width: 2px;
+  }
+  
+  #weatherInfo {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #cityInput{
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border-color: black 2px;
+  }
+  #imageContainer {
+    margin-top: 50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  
+  #imageContainer img {
+    max-width: 300px;
+    margin-top: 20px;
+  }
+  .footer{
+    text-align: center;
+    color: black;
+    font-size: medium;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin: 20px;
+    }
+  }
